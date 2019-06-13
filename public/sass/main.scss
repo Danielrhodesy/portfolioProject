@@ -1,0 +1,34 @@
+//@Imports
+
+@import "grid/header-grid.scss";
+
+// Colours
+
+$background-colour: white;
+$text-colour: black;
+
+//Fonts
+
+// $title-font: ;
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+
+  background-color: $background-colour;
+}
+
+h1 {
+  color: $text-colour;
+  margin: 0;
+}
+
+// Header
+
+header {
+  display: grid;
+  background-color: aquamarine;
+}
